@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musée</title>
+
+    <!--CSS link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/atomic.css">
+
+    <!--Font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="f-center">
+        <div class="X-large-layout">
+            <div class="header__container f-btw rel">
+                <div class="menu__container f-mid">
+                    <button class="headerMenu__container ">
+                        <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        class="ionicon" 
+                        viewBox="0 0 512 512">
+                            <title>Menu</title>
+                            <path 
+                            fill="none" 
+                            stroke="white" 
+                            stroke-linecap="round" 
+                            stroke-miterlimit="10" 
+                            stroke-width="32" 
+                            d="M80 160h352M80 256h352M80 352h352"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="headerTitle__container absol">
+                    <h1><a href="index.html">musée</a></h1>
+                </div>
+                <div class="headerCTA__container f-mid">
+                    <button>
+                        <p class="headerCTA__content">billetterie</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <nav class="navLinks__container absol">
+            <div class="navPageAnchor__container">
+                <a href="index.html" class="navLink">accueil</a>
+                <a href="#discover" class="navLink">a découvrir</a>
+                <a href="#visit" class="navLink">nos visites</a>
+                <a href="#" class="navLink">notre gallerie</a>
+            </div>
+            <div class="navInformation__container">
+                <a href="contact.html" class="navLink">nous contacter</a>
+                <a href="#schedule" class="navLink">nos horaires</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="heroContact">
+            <img src="asset/img/contact.jpg" alt="">
+        </section>
+        <section class="contact__container f-center">
+            <div class="contactContent__container flex col1-2">
+                <div class="contactForm__container">
+                    <div class="formTitle flex">
+                        <h2>nous contacter</h2>
+                        <div class="formLine__container f-mid">
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Noms">
+                        <input type="text" placeholder="Prénoms">
+                        <input type="email" placeholder="Email">
+                        <label for="">Message :</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <div class="contactCta__container flex">
+                            <button type="submit">envoyer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contactInformations__container">
+                    <div class="informationTitle__container flex ">
+                        <h2>informations</h2>
+                        <div class="informationLine__container f-mid">
+                            <div class="line--white"></div>
+                        </div>
+                    </div>
+                    <div class="informationContent__container">
+                        <div class="informationMail__container flex">
+                            <div class="mailIcon__container">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="mailContent__container">
+                                <p>Email :</p>
+                                <p>info@musee.com</p>
+                            </div>
+                        </div>
+                        <div class="informationPhone__container flex">
+                            <div class="phoneIcon__container">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <div class="phoneContent__container">
+                                <p>Téléphone :</p>
+                                <p>+33 (0)1 36 65 65 65</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="f-center">
+        <div class="medium-layout">
+            <div class="mainFooter__container  f-center">
+                <div class="newsletter__container col1-2 flex">
+                    <div class="newsletterTitle__container flex">
+                        <h3>newsletter</h3>
+                        <div class="visitLine__container f-mid">
+                            <div class="line--white"></div>
+                        </div>
+                    </div>
+                    <div class="newsletterForm">
+                        <form action="" class="f-mid col1">
+                            <label for="" class="block">Email :</label>
+                            <input type="email" placeholder="email@adresse.fr" class="block" style="flex-grow: 1;">
+                            <button class="block">inscription</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="network__container col1-2">
+                    <div class="networkTitle__container flex">
+                        <h3>suivez-nous</h3>
+                        <div class="visitLine__container f-mid">
+                            <div class="line--white"></div>
+                        </div>
+                    </div>
+                    <div class="networkLinks f-btw">
+                        <div class="networkLink " style="border-radius: 50%; overflow: hidden;">
+                            <a href="#" class="f-mid"><ion-icon name="logo-facebook" style="color: black; background-color: white; font-size: 60px;"></ion-icon></a>
+                        </div>
+                        <div class="networkLink ">
+                            <a href="#" class="f-mid"><ion-icon name="logo-instagram" style="font-size: 60px;"></ion-icon></a>
+                        </div>
+                        <div class="networkLink">
+                            <a href="#" class="f-mid"><ion-icon name="logo-linkedin" style="font-size: 60px;"></ion-icon></a> 
+                        </div>
+                        <div class="networkLink">
+                            <a href="#" class="f-mid"><ion-icon name="logo-pinterest" style="font-size: 60px;"></ion-icon></a>
+                        </div>
+                        <div class="networkLink">
+                            <a href="#" class="f-mid"><ion-icon name="logo-twitter" style="font-size: 60px;"></ion-icon></a>
+                        </div>
+                        <div class="networkLink">
+                            <a href="#" class="f-mid"><ion-icon name="logo-youtube" style="font-size: 60px;"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright__container f-mid">
+                <p>DevTool©copyright</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Javascript-->
+    <script src="script.js"></script>
+
+    <!--ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../SandBox"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Bleautour__mobil"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bleautour__mobil"
+	}
+}
